@@ -20,6 +20,7 @@ a {
 /* common */
 .header {
     position: sticky;
+    top: 0;
 }
 
 .main-content {
@@ -85,4 +86,63 @@ a {
     font-size: 1.6rem;
     font-weight: 600;
     line-height: normal;
+}
+
+/* hero */
+.hero .body {
+    display: flex;
+    margin-top: 62px;
+    justify-content: space-between;
+}
+
+.hero .content-block {
+    margin-top: 93px;
+    width: 42.2%;
+    /* margin-right: auto; */
+}
+
+.hero .content-block .comment {
+    color: #767E7E;
+    font-size: 1.4rem;
+    line-height: normal;
+}
+
+.hero .content-block .title{
+    color: #0D1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16; /* 116.129% */
+    margin-top: 18px;
+}
+
+.hero .content-block .des {
+    color: #9DA6A5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.77; /* 177.778% */
+    margin-top: 46px;
+    width: 374px;
+}
+
+.hero .content-block .action {
+    margin-top: 52px;
+}
+
+.media-block {
+    margin-left: auto;
+    width: 57.79%;
+    /* padding-left: 136px; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+}
+
+.hero .media-block .big-img {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero .community .image .img {
+    width: 33px;
+    height: 33px;
 }
