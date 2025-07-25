@@ -163,6 +163,7 @@ a {
 .media-block {
     width: 54.8%;
     padding-left: 65px;
+    position: relative;
 }
 
 .hero .media-block .big-img {
@@ -184,8 +185,8 @@ a {
     width: 157px;
     height: 75px;
     position: absolute;
-    left: 664px;
-    top: 300px;
+    left: 25px;
+    top: 149px;
 }
 
 .hero .media-block .analys {
@@ -197,9 +198,62 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 453px;
+}
+
+.hero .media-block .analys .title {
+    color: #0D1111;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.hero .media-block .analys .amount1{
+    margin-top: 16px;
+}
+
+.hero .media-block .analys .amount2 {
+    margin-top: 12px;
+}
+
+.hero .media-block .analys .amount3 {
+    margin-top: 10px;
+}
+
+.hero .media-block .analys .amount4 {
+    margin-top: 16px;
+}
+
+.hero .media-block .community {
+    display: inline-block;
+    padding: 17px 35px;
+    border-radius: 24px;
+    background: #FEFEFD;
+    box-shadow: 0 12px 80px 0 rgba(0, 0, 0, 0.05);
+    position: absolute;
+    left: 389px;
+    top: 500px;
+}
+
+.hero .media-block .community .title{
+    color: #0D1111;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .hero .community .image .img {
     width: 33px;
     height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 8px;
+}
+
+.hero .community .image .img+.img {
+    margin-left: -7px;
 }
