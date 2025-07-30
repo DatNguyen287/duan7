@@ -32,6 +32,23 @@ a {
     font-weight: 700;
     line-height: normal;
 }
+
+.logo {
+    display: flex;
+    margin-right: 235px;
+    align-items: center;
+}
+
+.logo .image {
+    margin-left: 5.91px;
+    width: 37px;
+    height: 37px;
+}
+
+.logo .name {
+    width: 76px;
+    height: 17px;
+}
 /* common */
 .header {
     position: sticky;
@@ -50,15 +67,6 @@ a {
     display: flex;
     margin-top: 57px;
     align-items: center;
-}
-
-.header .logo {
-    display: flex;
-    margin-right: 235px;
-}
-
-.header .logo .image {
-    margin-left: 5.91px;
 }
 
 .header .nav {
@@ -583,4 +591,57 @@ a {
     color: #767E7E;
     font-size: 1.8rem;
     line-height: normal;
+}
+
+.footer {
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+.footer .body {
+    display: flex;
+    align-items: start;
+}
+
+.footer .logo {
+    margin-right: 153.43px;
+}
+
+.footer .row {
+    display: flex;
+    gap: 144px;
+}
+
+.footer .row .title {
+    color: #2E2E2E;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+.footer .row .column .item {
+    color: #535353;
+    font-size: 1.6rem;
+    line-height: normal;
+}
+
+.footer .row .column li {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 20px;
+}
+
+.footer .row .column3 {
+    margin-right: -7px;
+}
+
+
+.footer .copyright {
+    margin-top: 80px;
+    color: #B0B5B4;
+    font-size: 1.8rem;
+    line-height: normal;
+    text-align: center;
 }
